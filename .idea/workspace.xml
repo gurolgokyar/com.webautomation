@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2bba792-067b-4a5e-ad92-3c516464843d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2afhmsC91nNpEZwi9cswqQSlyA3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java",
+    "onboarding.tips.debug.path": "C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/main/java/org/example/Main.java",
+    "two.files.diff.last.used.file": "C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RevertDraggablePositionTest">
+    <configuration name="AcceptPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="droppableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="droppableTest" />
+      <option name="MAIN_CLASS_NAME" value="droppableTest.AcceptPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultFunctionalityTest.testDefaultDraggable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="droppableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="draggable" />
+      <option name="MAIN_CLASS_NAME" value="draggable.DefaultFunctionalityTest" />
+      <option name="METHOD_NAME" value="testDefaultDraggable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertDraggablePositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="droppableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="droppableTest" />
+      <option name="MAIN_CLASS_NAME" value="droppableTest.RevertDraggablePositionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertDraggablePositionTest.testDragFirstBoxInBigBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="droppableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="droppableTest" />
+      <option name="MAIN_CLASS_NAME" value="droppableTest.RevertDraggablePositionTest" />
+      <option name="METHOD_NAME" value="testDragFirstBoxInBigBox" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertDraggablePositionTest.testDragSecondBoxAfterDraggedInBigBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="droppableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="droppableTest" />
+      <option name="MAIN_CLASS_NAME" value="droppableTest.RevertDraggablePositionTest" />
+      <option name="METHOD_NAME" value="testDragSecondBoxAfterDraggedInBigBox" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RevertDraggablePositionTest" />
+        <item itemvalue="JUnit.RevertDraggablePositionTest.testDragSecondBoxAfterDraggedInBigBox" />
+        <item itemvalue="JUnit.RevertDraggablePositionTest.testDragFirstBoxInBigBox" />
+        <item itemvalue="JUnit.AcceptPageTest" />
+        <item itemvalue="JUnit.DefaultFunctionalityTest.testDefaultDraggable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2bba792-067b-4a5e-ad92-3c516464843d" name="Changes" comment="" />
+      <created>1704715706314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704715706314</updated>
+    </task>
+    <servers />
+  </component>
+</project>
