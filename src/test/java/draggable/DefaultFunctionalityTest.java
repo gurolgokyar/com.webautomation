@@ -1,7 +1,7 @@
 package draggable;
 
 import baseTest.Hooks;
-import org.inar.utils.Pages;
+import utils.Pages;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +13,7 @@ public class DefaultFunctionalityTest extends Hooks {
     void testDefaultDraggable(){
 
         //click on the draggable button
-        pages.getWebautomationPage().clickOnDraggableButton();
+        pages.getWebautomationPage().clickOnDraggableLink();
 
         //Click on the default functionality
         pages.getDraggablePage().clickOnDefaultFunctionalityButton();

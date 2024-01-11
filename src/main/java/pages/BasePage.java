@@ -1,6 +1,6 @@
-package org.inar.pages;
+package pages;
 
-import org.inar.utils.Driver;
+import utils.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;

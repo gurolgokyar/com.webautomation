@@ -1,6 +1,6 @@
-package org.inar.pages.draggable;
+package pages.draggable;
 
-import org.inar.pages.BasePage;
+import pages.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 

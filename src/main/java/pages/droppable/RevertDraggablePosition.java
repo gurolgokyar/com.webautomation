@@ -1,5 +1,5 @@
-package org.inar.pages.droppable;
-import org.inar.pages.BasePage;
+package pages.droppable;
+import pages.BasePage;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

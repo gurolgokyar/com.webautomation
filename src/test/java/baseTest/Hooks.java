@@ -1,10 +1,9 @@
 package baseTest;
 
-import org.inar.utils.Driver;
-import org.inar.utils.Pages;
+import utils.Driver;
+import utils.Pages;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 

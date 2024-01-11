@@ -15,7 +15,7 @@ public class HandlesPageTest extends Hooks {
 
     @BeforeEach
     void navigateToWebOrderPage(){
-        pages.getWebautomationPage().clickOnDraggableButton();
+        pages.getWebautomationPage().clickOnDraggableLink();
         pages.getDraggablePage().clickOnTheHandlesButton();
         pages.getHomePage().clickWebAutomation();
     }

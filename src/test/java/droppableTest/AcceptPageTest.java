@@ -1,7 +1,7 @@
 package droppableTest;
 
 import baseTest.Hooks;
-import org.inar.utils.Pages;
+import utils.Pages;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ public class AcceptPageTest extends Hooks {
     @BeforeEach
     public void navigateToAcceptPage(){
         pages.getHomePage().clickWebAutomation();
-        pages.getWebautomationPage().clickOnDroppableButton();
+        pages.getWebautomationPage().clickOnDroppableLink();
         pages.getDroppablePage().clickOnAcceptLink();
     }
 

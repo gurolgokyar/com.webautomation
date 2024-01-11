@@ -1,11 +1,16 @@
-package org.inar.utils;
+package utils;
 
-import org.inar.pages.HomePage;
-import org.inar.pages.WebautomationPage;
-import org.inar.pages.draggable.*;
-import org.inar.pages.droppable.AcceptPage;
-import org.inar.pages.droppable.DroppablePage;
-import org.inar.pages.droppable.RevertDraggablePosition;
+import pages.HomePage;
+import pages.WebautomationPage;
+import pages.draggable.*;
+import pages.droppable.AcceptPage;
+import pages.droppable.DroppablePage;
+import pages.droppable.RevertDraggablePosition;
+import pages.resizeable.ResizeablePage;
+import pages.resizeable.SynchronusResizePage;
+import pages.resizeable.TextAreaPage;
+
+import java.awt.*;
 
 public class Pages {
 
@@ -28,6 +33,12 @@ public class Pages {
     public AcceptPage acceptPage;
 
     public RevertDraggablePosition revertDraggablePosition;
+
+    public SynchronusResizePage synchronusResizePage;
+
+    public ResizeablePage resizeablePage;
+
+    public TextAreaPage textAreaPage;
     public Pages(){
         homePage = new HomePage();
         webautomationPage = new WebautomationPage();
@@ -39,6 +50,9 @@ public class Pages {
         droppablePage = new DroppablePage();
         acceptPage = new AcceptPage();
         revertDraggablePosition = new RevertDraggablePosition();
+        resizeablePage = new ResizeablePage();
+        synchronusResizePage = new SynchronusResizePage();
+        textAreaPage = new TextAreaPage();
     }
 
     public HomePage getHomePage(){
@@ -81,5 +95,15 @@ public class Pages {
         return revertDraggablePosition;
     }
 
+    public ResizeablePage getResizeablePage() {
+        return resizeablePage;
+    }
 
+    public TextAreaPage getTextAreaPage(){
+        return textAreaPage;
+    }
+
+    public SynchronusResizePage getSynchronusResizePage() {
+        return synchronusResizePage;
+    }
 }

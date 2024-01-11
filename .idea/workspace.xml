@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bba792-067b-4a5e-ad92-3c516464843d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/resizeable/ResizeablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/resizeable/SynchronusResizePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/resizeable/TextAreaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resizable/SynchronusResizePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resizable/TextAreaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/WebautomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/autocomplate/MultipleAndRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/autocomplate/MultipleAndRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/draggable/AutoScrollingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/AutoScrollingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/draggable/ConstantMovementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/ConstantMovementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/draggable/DefaultFunctionalityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/DefaultFunctionalityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/draggable/DraggablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/DraggablePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/draggable/HandlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/HandlesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/droppable/AcceptPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/droppable/AcceptPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/droppable/DroppablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/droppable/DroppablePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/pages/droppable/RevertDraggablePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/droppable/RevertDraggablePosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/inar/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/AutoScrollingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/AutoScrollingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/ConstantMovementPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/ConstantMovementPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/DefaultFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/DefaultFunctionalityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/HandlesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/HandlesPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,53 +58,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java",
-    "onboarding.tips.debug.path": "C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/main/java/org/example/Main.java",
-    "two.files.diff.last.used.file": "C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/main/java/org/example/Main.java&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RevertDraggablePositionTest">
-    <configuration name="AcceptPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.webautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="droppableTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="droppableTest" />
-      <option name="MAIN_CLASS_NAME" value="droppableTest.AcceptPageTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefaultFunctionalityTest.testDefaultDraggable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.webautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="droppableTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="draggable" />
-      <option name="MAIN_CLASS_NAME" value="draggable.DefaultFunctionalityTest" />
-      <option name="METHOD_NAME" value="testDefaultDraggable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TextAreaTest">
     <configuration name="RevertDraggablePositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
@@ -93,33 +89,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevertDraggablePositionTest.testDragFirstBoxInBigBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SynchronusResizePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="droppableTest.*" />
+          <option name="PATTERN" value="resizable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="droppableTest" />
-      <option name="MAIN_CLASS_NAME" value="droppableTest.RevertDraggablePositionTest" />
-      <option name="METHOD_NAME" value="testDragFirstBoxInBigBox" />
+      <option name="PACKAGE_NAME" value="resizable" />
+      <option name="MAIN_CLASS_NAME" value="resizable.SynchronusResizePageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronusResizePageTest.testResizeResizeable1WithItsRightEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resizable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resizable" />
+      <option name="MAIN_CLASS_NAME" value="resizable.SynchronusResizePageTest" />
+      <option name="METHOD_NAME" value="testResizeResizeable1WithItsRightEdge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevertDraggablePositionTest.testDragSecondBoxAfterDraggedInBigBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="droppableTest.*" />
+          <option name="PATTERN" value="resizable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="droppableTest" />
-      <option name="MAIN_CLASS_NAME" value="droppableTest.RevertDraggablePositionTest" />
-      <option name="METHOD_NAME" value="testDragSecondBoxAfterDraggedInBigBox" />
+      <option name="PACKAGE_NAME" value="resizable" />
+      <option name="MAIN_CLASS_NAME" value="resizable.TextAreaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextAreaTest.testIsTextAreaContainsTheSandedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resizable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resizable" />
+      <option name="MAIN_CLASS_NAME" value="resizable.TextAreaTest" />
+      <option name="METHOD_NAME" value="testIsTextAreaContainsTheSandedMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextAreaTest" />
+        <item itemvalue="JUnit.TextAreaTest.testIsTextAreaContainsTheSandedMessage" />
+        <item itemvalue="JUnit.SynchronusResizePageTest" />
+        <item itemvalue="JUnit.SynchronusResizePageTest.testResizeResizeable1WithItsRightEdge" />
         <item itemvalue="JUnit.RevertDraggablePositionTest" />
-        <item itemvalue="JUnit.RevertDraggablePositionTest.testDragSecondBoxAfterDraggedInBigBox" />
-        <item itemvalue="JUnit.RevertDraggablePositionTest.testDragFirstBoxInBigBox" />
-        <item itemvalue="JUnit.AcceptPageTest" />
-        <item itemvalue="JUnit.DefaultFunctionalityTest.testDefaultDraggable" />
       </list>
     </recent_temporary>
   </component>

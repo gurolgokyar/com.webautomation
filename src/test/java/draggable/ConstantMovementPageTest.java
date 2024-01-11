@@ -2,7 +2,7 @@ package draggable;
 
 import baseTest.Hooks;
 import org.assertj.core.api.SoftAssertions;
-import org.inar.utils.Pages;
+import utils.Pages;
 import org.junit.jupiter.api.Test;
 
 public class ConstantMovementPageTest extends Hooks {
@@ -13,7 +13,7 @@ public class ConstantMovementPageTest extends Hooks {
     public void testConstantMovementPage() throws InterruptedException {
         SoftAssertions softAssertions = new SoftAssertions();
 
-        pages.getWebautomationPage().clickOnDraggableButton();
+        pages.getWebautomationPage().clickOnDraggableLink();
 
         pages.getDraggablePage().clickOnTheConstantButton();
 

@@ -2,7 +2,7 @@ package draggable;
 
 import baseTest.Hooks;
 import org.assertj.core.api.SoftAssertions;
-import org.inar.utils.Pages;
+import utils.Pages;
 import org.junit.jupiter.api.Test;
 
 public class AutoScrollingPageTest extends Hooks {
@@ -13,7 +13,7 @@ public class AutoScrollingPageTest extends Hooks {
     void testAutoScrollingDraggable() {
         SoftAssertions softAssertions = new SoftAssertions();
 
-        pages.getWebautomationPage().clickOnDraggableButton();
+        pages.getWebautomationPage().clickOnDraggableLink();
 
         pages.getDraggablePage().clickOnAutoScrollingButton();
 
