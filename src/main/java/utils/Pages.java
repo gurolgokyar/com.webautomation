@@ -2,6 +2,8 @@ package utils;
 
 import pages.HomePage;
 import pages.WebautomationPage;
+import pages.alertPage.AlertPage;
+import pages.alertPage.AlertTypesPage;
 import pages.draggable.*;
 import pages.droppable.AcceptPage;
 import pages.droppable.DroppablePage;
@@ -9,8 +11,8 @@ import pages.droppable.RevertDraggablePosition;
 import pages.resizeable.ResizeablePage;
 import pages.resizeable.SynchronusResizePage;
 import pages.resizeable.TextAreaPage;
-
-import java.awt.*;
+import pages.selectable.SelectablePage;
+import pages.selectable.SerializePage;
 
 public class Pages {
 
@@ -39,6 +41,14 @@ public class Pages {
     public ResizeablePage resizeablePage;
 
     public TextAreaPage textAreaPage;
+
+    public SelectablePage selectablePage;
+
+    public SerializePage serializePage;
+
+    public AlertPage alertPage;
+
+    public AlertTypesPage alertTypesPage;
     public Pages(){
         homePage = new HomePage();
         webautomationPage = new WebautomationPage();
@@ -53,6 +63,11 @@ public class Pages {
         resizeablePage = new ResizeablePage();
         synchronusResizePage = new SynchronusResizePage();
         textAreaPage = new TextAreaPage();
+        selectablePage = new SelectablePage();
+        serializePage = new SerializePage();
+        alertPage = new AlertPage();
+        alertTypesPage = new AlertTypesPage();
+
     }
 
     public HomePage getHomePage(){
@@ -106,4 +121,21 @@ public class Pages {
     public SynchronusResizePage getSynchronusResizePage() {
         return synchronusResizePage;
     }
+
+    public SelectablePage getSelectablePage() {
+        return selectablePage;
+    }
+
+    public SerializePage getSerializePage() {
+        return serializePage;
+    }
+
+    public AlertPage getAlertPage() {
+        return alertPage;
+    }
+
+    public AlertTypesPage getAlertTypesPage() {
+        return alertTypesPage;
+    }
 }
+
