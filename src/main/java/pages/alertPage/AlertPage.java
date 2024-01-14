@@ -7,10 +7,12 @@ import pages.BasePage;
 import java.util.Base64;
 
 public class AlertPage extends BasePage {
-    @FindBy(linkText = "Alert Types")
-    private WebElement alertTypeLink;
 
-    public void clickOnTheAlertLink(){
-        alertTypeLink.click();
-    }
+	@FindBy(linkText = "Alert Types")
+	private WebElement alertTypeLink;
+
+	public void clickOnTheAlertLink() {
+		alertTypeLink.click();
+	}
+
 }

@@ -1,0 +1,7 @@
+<suite name="testNG">
+    <test name="example">
+        <classes>
+            <class name="AutocomplateTest.AccentFoldingPageTest"/>
+        </classes>
+    </test>
+</suite>

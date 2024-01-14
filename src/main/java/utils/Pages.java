@@ -4,10 +4,14 @@ import pages.HomePage;
 import pages.WebautomationPage;
 import pages.alertPage.AlertPage;
 import pages.alertPage.AlertTypesPage;
+import pages.autocomplate.AccentFoldingPage;
+import pages.autocomplate.AutocompletePage;
 import pages.draggable.*;
 import pages.droppable.AcceptPage;
 import pages.droppable.DroppablePage;
 import pages.droppable.RevertDraggablePosition;
+import pages.iframe.IframePage;
+import pages.iframe.NormalIframePage;
 import pages.resizeable.ResizeablePage;
 import pages.resizeable.SynchronusResizePage;
 import pages.resizeable.TextAreaPage;
@@ -16,126 +20,148 @@ import pages.selectable.SerializePage;
 
 public class Pages {
 
-    private HomePage homePage;
+	private HomePage homePage;
 
-    private WebautomationPage webautomationPage;
+	private WebautomationPage webautomationPage;
 
-    private DefaultFunctionalityPage defaultFunctionalityPage;
+	private DefaultFunctionalityPage defaultFunctionalityPage;
 
-    private DraggablePage draggablePage;
+	private DraggablePage draggablePage;
 
-    private AutoScrollingPage autoScrollingPage;
+	private AutoScrollingPage autoScrollingPage;
 
-    private ConstantMovementPage constantMovementPage;
+	private ConstantMovementPage constantMovementPage;
 
-    private HandlesPage handlesPage;
+	private HandlesPage handlesPage;
 
-    public DroppablePage droppablePage;
+	public DroppablePage droppablePage;
 
-    public AcceptPage acceptPage;
+	public AcceptPage acceptPage;
 
-    public RevertDraggablePosition revertDraggablePosition;
+	public RevertDraggablePosition revertDraggablePosition;
 
-    public SynchronusResizePage synchronusResizePage;
+	public SynchronusResizePage synchronusResizePage;
 
-    public ResizeablePage resizeablePage;
+	public ResizeablePage resizeablePage;
 
-    public TextAreaPage textAreaPage;
+	public TextAreaPage textAreaPage;
 
-    public SelectablePage selectablePage;
+	public SelectablePage selectablePage;
 
-    public SerializePage serializePage;
+	public SerializePage serializePage;
 
-    public AlertPage alertPage;
+	public AlertPage alertPage;
 
-    public AlertTypesPage alertTypesPage;
-    public Pages(){
-        homePage = new HomePage();
-        webautomationPage = new WebautomationPage();
-        defaultFunctionalityPage = new DefaultFunctionalityPage();
-        draggablePage = new DraggablePage();
-        autoScrollingPage = new AutoScrollingPage();
-        constantMovementPage = new ConstantMovementPage();
-        handlesPage = new HandlesPage();
-        droppablePage = new DroppablePage();
-        acceptPage = new AcceptPage();
-        revertDraggablePosition = new RevertDraggablePosition();
-        resizeablePage = new ResizeablePage();
-        synchronusResizePage = new SynchronusResizePage();
-        textAreaPage = new TextAreaPage();
-        selectablePage = new SelectablePage();
-        serializePage = new SerializePage();
-        alertPage = new AlertPage();
-        alertTypesPage = new AlertTypesPage();
+	public AlertTypesPage alertTypesPage;
 
-    }
+	public NormalIframePage normalIframePage;
 
-    public HomePage getHomePage(){
-        return homePage;
-    }
+	public IframePage iframePage;
 
-    public DefaultFunctionalityPage getDefaultFunctionalityPage(){
-        return defaultFunctionalityPage;
-    }
+	public Pages() {
+		homePage = new HomePage();
+		webautomationPage = new WebautomationPage();
+		defaultFunctionalityPage = new DefaultFunctionalityPage();
+		draggablePage = new DraggablePage();
+		autoScrollingPage = new AutoScrollingPage();
+		constantMovementPage = new ConstantMovementPage();
+		handlesPage = new HandlesPage();
+		droppablePage = new DroppablePage();
+		acceptPage = new AcceptPage();
+		revertDraggablePosition = new RevertDraggablePosition();
+		resizeablePage = new ResizeablePage();
+		synchronusResizePage = new SynchronusResizePage();
+		textAreaPage = new TextAreaPage();
+		selectablePage = new SelectablePage();
+		serializePage = new SerializePage();
+		alertPage = new AlertPage();
+		alertTypesPage = new AlertTypesPage();
+		normalIframePage = new NormalIframePage();
 
-    public WebautomationPage getWebautomationPage(){
-        return webautomationPage;
-    }
+	}
 
-    public DraggablePage getDraggablePage(){
-        return draggablePage;
-    }
+	public HomePage getHomePage() {
+		return homePage;
+	}
 
-    public AutoScrollingPage getAutoScrollingPage(){
-        return autoScrollingPage;
-    }
+	public DefaultFunctionalityPage getDefaultFunctionalityPage() {
+		return defaultFunctionalityPage;
+	}
 
-    public ConstantMovementPage getConstantMovementPage(){
-        return constantMovementPage;
-    }
+	public WebautomationPage getWebautomationPage() {
+		return webautomationPage;
+	}
 
-    public HandlesPage getHandlesPage() {
-        return handlesPage;
-    }
+	public DraggablePage getDraggablePage() {
+		return draggablePage;
+	}
 
-    public DroppablePage getDroppablePage() {
-        return droppablePage;
-    }
+	public AutoScrollingPage getAutoScrollingPage() {
+		return autoScrollingPage;
+	}
 
-    public AcceptPage getAcceptPage() {
-        return acceptPage;
-    }
+	public ConstantMovementPage getConstantMovementPage() {
+		return constantMovementPage;
+	}
 
-    public RevertDraggablePosition getRevertDraggablePosition(){
-        return revertDraggablePosition;
-    }
+	public HandlesPage getHandlesPage() {
+		return handlesPage;
+	}
 
-    public ResizeablePage getResizeablePage() {
-        return resizeablePage;
-    }
+	public DroppablePage getDroppablePage() {
+		return droppablePage;
+	}
 
-    public TextAreaPage getTextAreaPage(){
-        return textAreaPage;
-    }
+	public AcceptPage getAcceptPage() {
+		return acceptPage;
+	}
 
-    public SynchronusResizePage getSynchronusResizePage() {
-        return synchronusResizePage;
-    }
+	public RevertDraggablePosition getRevertDraggablePosition() {
+		return revertDraggablePosition;
+	}
 
-    public SelectablePage getSelectablePage() {
-        return selectablePage;
-    }
+	public ResizeablePage getResizeablePage() {
+		return resizeablePage;
+	}
 
-    public SerializePage getSerializePage() {
-        return serializePage;
-    }
+	public TextAreaPage getTextAreaPage() {
+		return textAreaPage;
+	}
 
-    public AlertPage getAlertPage() {
-        return alertPage;
-    }
+	public SynchronusResizePage getSynchronusResizePage() {
+		return synchronusResizePage;
+	}
 
-    public AlertTypesPage getAlertTypesPage() {
-        return alertTypesPage;
-    }
+	public SelectablePage getSelectablePage() {
+		return selectablePage;
+	}
+
+	public SerializePage getSerializePage() {
+		return serializePage;
+	}
+
+	public AlertPage getAlertPage() {
+		return alertPage;
+	}
+
+	public AlertTypesPage getAlertTypesPage() {
+		return alertTypesPage;
+	}
+
+	public NormalIframePage getNormalIframePage() {
+		return normalIframePage;
+	}
+
+	public IframePage getIframePage() {
+		return new IframePage();
+	}
+
+	public AutocompletePage getAutocompletePage() {
+		return new AutocompletePage();
+	}
+
+	public AccentFoldingPage getAccentFoldingPage() {
+		return new AccentFoldingPage();
+	}
+
 }
-

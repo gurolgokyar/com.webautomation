@@ -1,57 +1,59 @@
 package selectable;
 
 import baseTest.Hooks;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import utils.Pages;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.testng.Assert.*;
+
 
 public class SerializePageTest extends Hooks {
-    Pages pages = new Pages();
 
-    @BeforeEach
-    void navigateTheSerializePage(){
-        pages.getHomePage().clickWebAutomation();
-        pages.getWebautomationPage().clickOnSelectableLink();
-        pages.getSelectablePage().clickOnSerializeLink();
-    }
+	Pages pages = new Pages();
 
-    @AfterEach
-    void navigateTheHomePage(){
-        driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
-    }
+	@BeforeMethod
+	void navigateTheSerializePage() {
+		pages.getHomePage().clickWebAutomation();
+		pages.getWebautomationPage().clickOnSelectableLink();
+		pages.getSelectablePage().clickOnSerializeLink();
+	}
 
-    @Test
-    void testClickOnARow(){
-        pages.getSerializePage().clickOnARow(3);
+	@AfterMethod
+	void navigateTheHomePage() {
+		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
+	}
 
-        boolean isSelected = pages.getSerializePage().isSelected(3);
+	@Test
+	void testClickOnARow() {
+		pages.getSerializePage().clickOnARow(3);
 
-        assertTrue(isSelected, "Element should be selected!");
-    }
+		boolean isSelected = pages.getSerializePage().isSelected(3);
 
-    @Test
-    void testClickOnRowsWithCtrl(){
-        pages.getSerializePage().clickOnRowsWithCtrl(4, 1, 5);
+		assertTrue(isSelected, "Element should be selected!");
+	}
 
-        String actualMessage = pages.getSerializePage().getSelectedRows();
+	@Test
+	void testClickOnRowsWithCtrl() {
+		pages.getSerializePage().clickOnRowsWithCtrl(4, 1, 5);
 
-        String expectedMessage = "#1 #4 #5";
+		String actualMessage = pages.getSerializePage().getSelectedRows();
 
-        assertEquals(expectedMessage, actualMessage, "The message is wrong!");
-    }
+		String expectedMessage = "#1 #4 #5";
 
-    @Test
-    void testClickOnRowsWithMouse(){
-        pages.getSerializePage().clickWidthMouse(5, 6);
+		assertEquals(expectedMessage, actualMessage, "The message is wrong!");
+	}
 
-        boolean isSelectedRow5 =  pages.getSerializePage().isSelected(5);
-        boolean isSelectedRow6 =  pages.getSerializePage().isSelected(6);
+	@Test
+	void testClickOnRowsWithMouse() {
+		pages.getSerializePage().clickWidthMouse(5, 6);
 
-        assertTrue(isSelectedRow5 && isSelectedRow6, "Row 5 and 6 should be selected!");
+		boolean isSelectedRow5 = pages.getSerializePage().isSelected(5);
+		boolean isSelectedRow6 = pages.getSerializePage().isSelected(6);
 
-    }
+		assertTrue(isSelectedRow5 && isSelectedRow6, "Row 5 and 6 should be selected!");
+
+	}
+
 }

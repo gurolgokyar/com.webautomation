@@ -6,17 +6,18 @@ import pages.BasePage;
 
 public class ResizeablePage extends BasePage {
 
-    @FindBy(linkText = "Synchronus Resize")
-    private WebElement synchronusResizeLink;
+	@FindBy(linkText = "Synchronus Resize")
+	private WebElement synchronusResizeLink;
 
-    @FindBy(linkText = "Textarea")
-    private WebElement textAreaLink;
+	@FindBy(linkText = "Textarea")
+	private WebElement textAreaLink;
 
-    public void clickOnSynchronusResizeLink(){
-        synchronusResizeLink.click();
-    }
+	public void clickOnSynchronusResizeLink() {
+		synchronusResizeLink.click();
+	}
 
-    public void clickOnTextAreaLink(){
-        textAreaLink.click();
-    }
+	public void clickOnTextAreaLink() {
+		textAreaLink.click();
+	}
+
 }

@@ -6,10 +6,11 @@ import pages.BasePage;
 
 public class SelectablePage extends BasePage {
 
-    @FindBy(linkText = "Serialize")
-    private WebElement serializeLink;
+	@FindBy(linkText = "Serialize")
+	private WebElement serializeLink;
 
-    public void clickOnSerializeLink(){
-        serializeLink.click();
-    }
+	public void clickOnSerializeLink() {
+		serializeLink.click();
+	}
+
 }

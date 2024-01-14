@@ -1,46 +1,46 @@
 package droppableTest;
 
 import baseTest.Hooks;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import utils.Pages;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.testng.Assert.*;
 
 
 public class AcceptPageTest extends Hooks {
-    Pages pages = new Pages();
-    @BeforeEach
-    public void navigateToAcceptPage(){
-        pages.getHomePage().clickWebAutomation();
-        pages.getWebautomationPage().clickOnDroppableLink();
-        pages.getDroppablePage().clickOnAcceptLink();
-    }
 
-    @AfterEach
-    void navigateToHomePage(){
-        driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
-    }
+	Pages pages = new Pages();
 
+	@BeforeMethod
+	public void navigateToAcceptPage() {
+		pages.getHomePage().clickWebAutomation();
+		pages.getWebautomationPage().clickOnDroppableLink();
+		pages.getDroppablePage().clickOnAcceptLink();
+	}
 
-    @Test
-    void testUnDroppableBox(){
-        pages.getAcceptPage().dragUnDroppableBox();
+	@AfterMethod
+	void navigateToHomePage() {
+		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
+	}
 
-        String messageInBigBox = pages.getAcceptPage().getTextInBigBox();
+	@Test
+	void testUnDroppableBox() {
+		pages.getAcceptPage().dragUnDroppableBox();
 
-        assertEquals("accept: '#draggable'", messageInBigBox, "The message in the big box is not as expected!");
-    }
+		String messageInBigBox = pages.getAcceptPage().getTextInBigBox();
 
-    @Test
-    void testDroppableBox(){
-        pages.getAcceptPage().dragDroppableBox();
+		assertEquals("accept: '#draggable'", messageInBigBox, "The message in the big box is not as expected!");
+	}
 
-        String messageInBigBox = pages.getAcceptPage().getTextInBigBox();
+	@Test
+	void testDroppableBox() {
+		pages.getAcceptPage().dragDroppableBox();
 
-        assertEquals("Dropped!", messageInBigBox, "The message in the big box is not as expected!");
-    }
+		String messageInBigBox = pages.getAcceptPage().getTextInBigBox();
 
+		assertEquals("Dropped!", messageInBigBox, "The message in the big box is not as expected!");
+	}
 
 }

@@ -5,17 +5,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class DroppablePage extends BasePage {
-    @FindBy(linkText = "Accept")
-    private WebElement acceptLink;
 
-    @FindBy(linkText = "Revert draggable position")
-    private WebElement revertDraggablePositionLink;
+	@FindBy(linkText = "Accept")
+	private WebElement acceptLink;
 
-    public void clickOnAcceptLink(){
-        acceptLink.click();
-    }
+	@FindBy(linkText = "Revert draggable position")
+	private WebElement revertDraggablePositionLink;
 
-    public void clickOnRevertDraggablePositionLink(){
-        revertDraggablePositionLink.click();
-    }
+	public void clickOnAcceptLink() {
+		acceptLink.click();
+	}
+
+	public void clickOnRevertDraggablePositionLink() {
+		revertDraggablePositionLink.click();
+	}
+
 }

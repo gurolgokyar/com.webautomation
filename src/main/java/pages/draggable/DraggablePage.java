@@ -8,32 +8,32 @@ import java.util.List;
 
 public class DraggablePage extends BasePage {
 
-    @FindBy(linkText = "Default Functionality")
-    private List<WebElement> defaultFunctionalityLink;
+	@FindBy(linkText = "Default Functionality")
+	private List<WebElement> defaultFunctionalityLink;
 
-    @FindBy(xpath = "//a[text() = 'Auto Scrolling']")
-    private WebElement autoScrollingLink;
+	@FindBy(xpath = "//a[text() = 'Auto Scrolling']")
+	private WebElement autoScrollingLink;
 
-    @FindBy(linkText = "Constrain Movement")
-    WebElement constrainMovementLink;
+	@FindBy(linkText = "Constrain Movement")
+	WebElement constrainMovementLink;
 
-    @FindBy(linkText = "Handles")
-    WebElement handlesLink;
+	@FindBy(linkText = "Handles")
+	WebElement handlesLink;
 
-    public void clickOnDefaultFunctionalityButton(){
-        defaultFunctionalityLink.get(0).click();
-    }
+	public void clickOnDefaultFunctionalityButton() {
+		defaultFunctionalityLink.get(0).click();
+	}
 
-    public void clickOnAutoScrollingButton(){
-        autoScrollingLink.click();
-    }
+	public void clickOnAutoScrollingButton() {
+		autoScrollingLink.click();
+	}
 
-    public void clickOnTheConstantButton(){
-        constrainMovementLink.click();
-    }
+	public void clickOnTheConstantButton() {
+		constrainMovementLink.click();
+	}
 
-    public void clickOnTheHandlesButton(){
-        handlesLink.click();
-    }
+	public void clickOnTheHandlesButton() {
+		handlesLink.click();
+	}
 
 }

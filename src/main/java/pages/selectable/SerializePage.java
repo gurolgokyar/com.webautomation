@@ -8,30 +8,37 @@ import pages.BasePage;
 import java.util.List;
 
 public class SerializePage extends BasePage {
-    @FindBy(css = "#selectable-serialize > li")
-    private List<WebElement> rows;
 
-    @FindBy(id = "select-result")
-    private WebElement selectResult;
+	@FindBy(css = "#selectable-serialize > li")
+	private List<WebElement> rows;
 
-    public void clickOnARow(int i){
-        rows.get(i -1).click();
-    }
+	@FindBy(id = "select-result")
+	private WebElement selectResult;
 
-    public void clickOnRowsWithCtrl(int i1, int i2 , int i3){
-        actions.keyDown(Keys.CONTROL).click(rows.get(i1 -1)).click(rows.get(i2 -1)).click(rows.get(i3 -1)).keyUp(Keys.CONTROL).perform();
-    }
+	public void clickOnARow(int i) {
+		rows.get(i - 1).click();
+	}
 
-    public void clickWidthMouse(int i1, int i2){
-        actions.clickAndHold(rows.get(i1 -1)).moveToElement(rows.get(i2 -1)).release().perform();
-    }
+	public void clickOnRowsWithCtrl(int i1, int i2, int i3) {
+		actions.keyDown(Keys.CONTROL)
+			.click(rows.get(i1 - 1))
+			.click(rows.get(i2 - 1))
+			.click(rows.get(i3 - 1))
+			.keyUp(Keys.CONTROL)
+			.perform();
+	}
 
-    public String getSelectedRows(){
-        return selectResult.getText();
-        //return selectedResult.getAttribute("value");
-    }
+	public void clickWidthMouse(int i1, int i2) {
+		actions.clickAndHold(rows.get(i1 - 1)).moveToElement(rows.get(i2 - 1)).release().perform();
+	}
 
-    public boolean isSelected(int i){
-        return rows.get(i -1).getAttribute("class").contains("ui-selected");
-    }
+	public String getSelectedRows() {
+		return selectResult.getText();
+		// return selectedResult.getAttribute("value");
+	}
+
+	public boolean isSelected(int i) {
+		return rows.get(i - 1).getAttribute("class").contains("ui-selected");
+	}
+
 }

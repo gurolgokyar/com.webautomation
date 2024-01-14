@@ -5,42 +5,46 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
 
-    @FindBy(linkText = "Weborder")
-    private WebElement webOrder;
-    @FindBy(linkText = "Webautomation")
-    private WebElement webAutomation;
+	@FindBy(linkText = "Weborder")
+	private WebElement webOrder;
 
-    @FindBy(linkText = "Target Market")
-    private WebElement targetMarket;
+	@FindBy(linkText = "Webautomation")
+	private WebElement webAutomation;
 
-    @FindBy(linkText = "Booking")
-    private WebElement booking;
+	@FindBy(linkText = "Target Market")
+	private WebElement targetMarket;
 
-    @FindBy(linkText = "Handling Certifications")
-    private WebElement handlingCertifications;
+	@FindBy(linkText = "Booking")
+	private WebElement booking;
 
-    @FindBy(linkText = "File Uploading")
-    private WebElement fileUploading;
+	@FindBy(linkText = "Handling Certifications")
+	private WebElement handlingCertifications;
 
-    public void clickWeborder(){
-        webAutomation.click();
-    }
-    public void clickWebAutomation(){
-        webAutomation.click();
-    }
+	@FindBy(linkText = "File Uploading")
+	private WebElement fileUploading;
 
-    public void clickTargetMarket(){
-        targetMarket.click();
-    }
-    public void clickBooking(){
-        booking.click();
-    }
+	public void clickWeborder() {
+		webAutomation.click();
+	}
 
-    public void clickHandlingCertifications(){
-        handlingCertifications.click();
-    }
+	public void clickWebAutomation() {
+		webAutomation.click();
+	}
 
-    public void clickFileUploading(){
-        fileUploading.click();
-    }
+	public void clickTargetMarket() {
+		targetMarket.click();
+	}
+
+	public void clickBooking() {
+		booking.click();
+	}
+
+	public void clickHandlingCertifications() {
+		handlingCertifications.click();
+	}
+
+	public void clickFileUploading() {
+		fileUploading.click();
+	}
+
 }
