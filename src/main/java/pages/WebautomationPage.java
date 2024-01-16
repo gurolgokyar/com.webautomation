@@ -27,6 +27,18 @@ public class WebautomationPage extends BasePage {
 	@FindBy(linkText = "Iframe")
 	private WebElement iframeLink;
 
+	@FindBy(linkText = "Menu")
+	private WebElement menuLink;
+
+	@FindBy(linkText = "Dialog")
+	private WebElement dialogLink;
+
+	@FindBy(linkText = "Control Group")
+	private WebElement controlGroupLink;
+
+	@FindBy(linkText = "Progress Bar")
+	private WebElement progressbarLink;
+
 	public void clickOnDraggableLink() {
 		draggableLink.click();
 	}
@@ -51,13 +63,28 @@ public class WebautomationPage extends BasePage {
 		alertsLink.click();
 	}
 
+
 	public void clickOnTheIframeLink() {
 		BrowserUtils.scrollDownWithPageDown();
 		BrowserUtils.wait(1);
 		iframeLink.click();
 		BrowserUtils.scrollDownWithPageUp();
 		BrowserUtils.wait(1);
-
 	}
 
+	public void clickOnTheMenuLink() {
+		menuLink.click();
+	}
+
+	public void clickOnTheDialogLink(){
+		dialogLink.click();
+	}
+
+	public void clickOnTheControlGroupPage(){
+		controlGroupLink.click();
+	}
+
+	public void clickOnTheProgressbarLink(){
+		progressbarLink.click();
+	}
 }

@@ -50,7 +50,7 @@
                 <configuration>
                     <useModulePath>false</useModulePath>
                        <suiteXmlFiles>
-                           <suiteXmlfile>testNg.xml</suiteXmlfile>
+                           <suiteXmlfile>controlGroup.xml</suiteXmlfile>
                        </suiteXmlFiles>
                 </configuration>
             </plugin>
