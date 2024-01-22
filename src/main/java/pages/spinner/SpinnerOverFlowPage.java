@@ -32,6 +32,7 @@ public class SpinnerOverFlowPage extends BasePage {
     }
 
     public void setTheTextAreaToZero(){
+        textArea.clear();
         textArea.sendKeys("0");
     }
 
