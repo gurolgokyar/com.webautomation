@@ -6,11 +6,11 @@ import pages.BasePage;
 
 public class ControlGroupPage extends BasePage {
 
-    @FindBy(xpath = "//a[text() = 'Toolbar']")
-    private WebElement toolbarLink;
+	@FindBy(xpath = "//a[text() = 'Toolbar']")
+	private WebElement toolbarLink;
 
-    public void clickOnTheToolbarLink(){
-        toolbarLink.click();
-    }
+	public void clickOnTheToolbarLink() {
+		toolbarLink.click();
+	}
 
 }

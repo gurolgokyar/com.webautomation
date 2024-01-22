@@ -39,6 +39,12 @@ public class WebautomationPage extends BasePage {
 	@FindBy(linkText = "Progress Bar")
 	private WebElement progressbarLink;
 
+	@FindBy(linkText = "Slider")
+	private WebElement sliderLink;
+
+	@FindBy(linkText = "Spinner")
+	private WebElement spinnerLink;
+
 	public void clickOnDraggableLink() {
 		draggableLink.click();
 	}
@@ -63,12 +69,11 @@ public class WebautomationPage extends BasePage {
 		alertsLink.click();
 	}
 
-
 	public void clickOnTheIframeLink() {
 		BrowserUtils.scrollDownWithPageDown();
 		BrowserUtils.wait(1);
 		iframeLink.click();
-		BrowserUtils.scrollDownWithPageUp();
+		BrowserUtils.scrollUpWithPageUp();
 		BrowserUtils.wait(1);
 	}
 
@@ -76,15 +81,23 @@ public class WebautomationPage extends BasePage {
 		menuLink.click();
 	}
 
-	public void clickOnTheDialogLink(){
+	public void clickOnTheDialogLink() {
 		dialogLink.click();
 	}
 
-	public void clickOnTheControlGroupPage(){
+	public void clickOnTheControlGroupPage() {
 		controlGroupLink.click();
 	}
 
-	public void clickOnTheProgressbarLink(){
+	public void clickOnTheProgressbarLink() {
 		progressbarLink.click();
+	}
+
+	public void clickOnTheSliderLink(){
+		sliderLink.click();
+	}
+
+	public void clickOnTheSpinnerLink(){
+		spinnerLink.click();
 	}
 }

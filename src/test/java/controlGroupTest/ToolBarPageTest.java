@@ -7,49 +7,49 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-
 public class ToolBarPageTest extends Hooks {
-    @BeforeMethod
-    void navigateToToolbarPage(){
-        pages.getHomePage().clickWebAutomation();
-        pages.getWebautomationPage().clickOnTheControlGroupPage();
-        //pages.getControlGroupPage().clickOnTheToolbarLink();
-    }
 
-    @AfterMethod
-    void navigateToHomePage(){
-        driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
-    }
+	@BeforeMethod
+	void navigateToToolbarPage() {
+		pages.getHomePage().clickWebAutomation();
+		pages.getWebautomationPage().clickOnTheControlGroupPage();
+		// pages.getControlGroupPage().clickOnTheToolbarLink();
+	}
 
-    @Test
-    void selectTheZoomValue(){
-        //click on the zoom button
-        pages.getToolbarPage().selectTheZoomValue("150%");
+	@AfterMethod
+	void navigateToHomePage() {
+		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
+	}
 
-        //verify the correct value(150%) is selected
-        boolean isSelected = pages.getToolbarPage().isZoomValueSelectedCorrectly("150%");
-        assertTrue(isSelected, "Wrong zoom value!");
-    }
+	@Test
+	void selectTheZoomValue() {
+		// click on the zoom button
+		pages.getToolbarPage().selectTheZoomValue("150%");
 
-    @Test
-    void selectTheHighLight(){
-        //Click on the highLight button
-        pages.getToolbarPage().selectTheHighLightValue("Yellow");
+		// verify the correct value(150%) is selected
+		boolean isSelected = pages.getToolbarPage().isZoomValueSelectedCorrectly("150%");
+		assertTrue(isSelected, "Wrong zoom value!");
+	}
 
-        //verify the correct value(Yellow) is selected
-        boolean isSelected = pages.getToolbarPage().isHighLightValueSelectedCorrectly("Yellow");
-        assertTrue(isSelected, "Wrong highLight value!");
-    }
+	@Test
+	void selectTheHighLight() {
+		// Click on the highLight button
+		pages.getToolbarPage().selectTheHighLightValue("Yellow");
 
-    @Test
-    void selectTheColor(){
-        //Select the Green as a color value
-        pages.getToolbarPage().selectTheColorValue("Green");
+		// verify the correct value(Yellow) is selected
+		boolean isSelected = pages.getToolbarPage().isHighLightValueSelectedCorrectly("Yellow");
+		assertTrue(isSelected, "Wrong highLight value!");
+	}
 
-        //verify the correct value(Green) is selected
-        boolean isSelected = pages.getToolbarPage().isColorValueSelectedCorrectly("Green");
-        assertTrue(isSelected, "Wrong color value!");
+	@Test
+	void selectTheColor() {
+		// Select the Green as a color value
+		pages.getToolbarPage().selectTheColorValue("Green");
 
-    }
+		// verify the correct value(Green) is selected
+		boolean isSelected = pages.getToolbarPage().isColorValueSelectedCorrectly("Green");
+		assertTrue(isSelected, "Wrong color value!");
+
+	}
 
 }

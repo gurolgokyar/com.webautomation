@@ -14,8 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>4.16.1</selenium.version>
         <testng.version>7.9.0</testng.version>
-        <junit.version>5.10.1</junit.version>
-        <assertj-core.version>3.25.1</assertj-core.version>
+<!--        <junit.version>5.10.1</junit.version>-->
         <browser>chrome</browser>
     </properties>
 
@@ -25,11 +24,25 @@
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
         </dependency>
     </dependencies>
 
@@ -48,9 +61,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.3</version>
                 <configuration>
-                    <useModulePath>false</useModulePath>
                        <suiteXmlFiles>
-                           <suiteXmlfile>controlGroup.xml</suiteXmlfile>
+                           <suiteXmlfile>src/test/resources/controlGroup.xml</suiteXmlfile>
+                           <suiteXmlFile>src/test/resources/normalIframe.xml</suiteXmlFile>
+                           <suiteXmlFile>src/test/resources/spinner.xml</suiteXmlFile>
+                           <suiteXmlFile>src/test/resources/slider.xml</suiteXmlFile>
                        </suiteXmlFiles>
                 </configuration>
             </plugin>

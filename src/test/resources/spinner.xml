@@ -1,0 +1,13 @@
+<suite name="spinnerTest" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="testWithChrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="spinner.SpinnerOverFlowPageTest"/>
+        </classes>
+    </test>
+
+</suite>

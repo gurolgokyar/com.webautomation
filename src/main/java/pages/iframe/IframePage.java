@@ -12,15 +12,13 @@ public class IframePage {
 	@FindBy(linkText = "Nested Iframe")
 	private WebElement nestedIframeLink;
 
-//	public void clickOnNormalIframeLink() {
-//		BrowserUtils.scrollDownWithPageUp();
-//		BrowserUtils.wait(1);
-//		normalIframeLink.click();
-//	}
+	public void clickOnNormalIframeLink() {
+		BrowserUtils.scrollUpWithPageUp();
+		normalIframeLink.click();
+	}
 
 	public void clickOnNestedIframeLink() {
-		BrowserUtils.scrollDownWithPageUp();
-		BrowserUtils.wait(1);
+		BrowserUtils.scrollUpWithPageUp();
 		nestedIframeLink.click();
 	}
 

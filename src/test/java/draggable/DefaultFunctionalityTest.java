@@ -5,8 +5,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.Pages;
 
-
-
 public class DefaultFunctionalityTest extends Hooks {
 
 	Pages pages = new Pages();
@@ -25,7 +23,7 @@ public class DefaultFunctionalityTest extends Hooks {
 		int initialY = pages.getDefaultFunctionalityPage().getLocalOfDraggableY();
 
 		// Drag the draggable element by 100 pixels to right and 100 pixels down
-		pages.getDefaultFunctionalityPage().drugAndDrop(100, 100);
+		pages.getDefaultFunctionalityPage().dragAndDrop(100, 100);
 
 		// Get the final value of the coordinates of the element
 		int finalX = pages.getDefaultFunctionalityPage().getLocalOfDraggableX();

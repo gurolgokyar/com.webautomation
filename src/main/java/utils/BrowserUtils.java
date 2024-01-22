@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class BrowserUtils {
 
-	static Actions actions ;
+	static Actions actions;
 
 	public static void wait(int timeout) {
 		try {
@@ -19,13 +19,13 @@ public class BrowserUtils {
 	public static void scrollDownWithPageDown() {
 		actions = new Actions(Driver.getDriver());
 		actions.keyDown(Keys.PAGE_DOWN).release().build().perform();
-		wait(1);// this is important
+		wait(2);// this is important
 	}
 
-	public static void scrollDownWithPageUp() {
+	public static void scrollUpWithPageUp() {
 		actions = new Actions(Driver.getDriver());
 		actions.keyDown(Keys.PAGE_UP).release().build().perform();
-		wait(1);
+		wait(2);
 	}
 
 }

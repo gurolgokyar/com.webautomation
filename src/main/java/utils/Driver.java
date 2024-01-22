@@ -17,7 +17,7 @@ public class Driver {
 		throw new UnsupportedOperationException("\"Cannot instantiate utility class\"");
 	}
 
-	public static WebDriver getDriver(){
+	public static WebDriver getDriver() {
 		return getDriver(System.getProperty("browser", "chrome"));
 	}
 

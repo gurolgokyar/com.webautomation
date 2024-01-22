@@ -9,12 +9,12 @@ public class DefaultFunctionalityPage extends BasePage {
 	@FindBy(id = "draggable")
 	public WebElement draggable;
 
-	public void drugAndDrop(int xOffset, int yOffset) {
+	public void dragAndDrop(int xOffset, int yOffset) {
 		actions.dragAndDropBy(draggable, xOffset, yOffset).perform();
 	}
 
-	public void drugAndDrop() {
-		drugAndDrop(100, 100);
+	public void dragAndDrop() {
+		dragAndDrop(100, 100);
 	}
 
 	public int getLocalOfDraggableX() {

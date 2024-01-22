@@ -5,27 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bba792-067b-4a5e-ad92-3c516464843d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ControlGroupPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/DialogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/menu/IconsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/menu/MenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/ProgressbarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controlGroup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/slider/SliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/slider/SnapToIncrementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverFlowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SnapToIncrementPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverFlowPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/normalIframe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/slider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/spinner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/alertPage/AlertPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/alert/AlertPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/alertPage/AlertTypesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/alert/AlertTypesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ControlGroupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ControlGroupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/dialog/DialogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/DialogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/draggable/DefaultFunctionalityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/DefaultFunctionalityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/iframe/IframePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/iframe/IframePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/iframe/NormalIframePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/iframe/NormalIframePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/menu/IconsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/menu/IconsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/menu/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/menu/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/progressBar/ProgressbarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/ProgressbarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controlGroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/controlGroup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/DefaultFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/DefaultFunctionalityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selectable/SerializePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selectable/SerializePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +77,23 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.targetmarket-team1&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/droppableTest/droppable.java&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive\Masaüstü\WorkSpace\com.webautomation\src\test\resources" />
       <recent name="C:\Users\user\OneDrive\Masaüstü\WorkSpace\com.webautomation" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/controlGroup.xml">
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/controlGroup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/spinner.xml">
+    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/normalIframe.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/controlGroup.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/normalIframe.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -81,34 +101,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadDialogPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/sliider.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progressbar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="progressbar" />
-      <option name="MAIN_CLASS_NAME" value="progressbar.DownloadDialogPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/sliider.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadDialogPageTest.isDownloadingFrameVisibleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/spinner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/spinner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalIframePageTest.isNormalIFrameVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progressbar.*" />
+          <option name="PATTERN" value="iframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="progressbar" />
-      <option name="MAIN_CLASS_NAME" value="progressbar.DownloadDialogPageTest" />
-      <option name="METHOD_NAME" value="isDownloadingFrameVisibleTest" />
+      <option name="PACKAGE_NAME" value="iframe" />
+      <option name="MAIN_CLASS_NAME" value="iframe.NormalIframePageTest" />
+      <option name="METHOD_NAME" value="isNormalIFrameVisible" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,35 +139,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IconsPageTest.testIsNotElementSelectable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SnapToIncrementPageTest.testDonationAmount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="menuPageTest.*" />
+          <option name="PATTERN" value="slider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="menuPageTest" />
-      <option name="MAIN_CLASS_NAME" value="menuPageTest.IconsPageTest" />
-      <option name="METHOD_NAME" value="testIsNotElementSelectable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolBarPageTest.selectTheColor" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.webautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controlGroupTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controlGroupTest" />
-      <option name="MAIN_CLASS_NAME" value="controlGroupTest.ToolBarPageTest" />
-      <option name="METHOD_NAME" value="selectTheColor" />
+      <option name="PACKAGE_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="slider.SnapToIncrementPageTest" />
+      <option name="METHOD_NAME" value="testDonationAmount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/java/controlGroup.xml" />
-        <item itemvalue="TestNG.DownloadDialogPageTest" />
-        <item itemvalue="TestNG.DownloadDialogPageTest.isDownloadingFrameVisibleTest" />
-        <item itemvalue="TestNG.ToolBarPageTest.selectTheColor" />
-        <item itemvalue="TestNG.IconsPageTest.testIsNotElementSelectable" />
+        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/spinner.xml" />
+        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/sliider.xml" />
+        <item itemvalue="TestNG.SnapToIncrementPageTest.testDonationAmount" />
+        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/normalIframe.xml" />
+        <item itemvalue="TestNG.NormalIframePageTest.isNormalIFrameVisible" />
       </list>
     </recent_temporary>
   </component>

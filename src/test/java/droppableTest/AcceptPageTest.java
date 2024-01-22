@@ -8,7 +8,6 @@ import utils.Pages;
 
 import static org.testng.Assert.*;
 
-
 public class AcceptPageTest extends Hooks {
 
 	Pages pages = new Pages();

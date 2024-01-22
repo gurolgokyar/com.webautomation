@@ -7,33 +7,33 @@ import pages.BasePage;
 
 public class DownLoadDialogPage extends BasePage {
 
-    @FindBy(id = "downloadButton-download-dialog")
-    private WebElement startDownloadButton;
+	@FindBy(id = "downloadButton-download-dialog")
+	private WebElement startDownloadButton;
 
-    @FindBy(id = "ui-id-82")
-    private WebElement downloadingFrame;
+	@FindBy(id = "ui-id-82")
+	private WebElement downloadingFrame;
 
-    @FindBy(id = "progressbar-download-dialog")
-    private WebElement downloadingProgress;
+	@FindBy(id = "progressbar-download-dialog")
+	private WebElement downloadingProgress;
 
-    public void clickOnTheStartDownloadButton(){
-        startDownloadButton.click();
-    }
+	public void clickOnTheStartDownloadButton() {
+		startDownloadButton.click();
+	}
 
+	public boolean isDownloadFrameVisible() {
+		try {
+			wait.until(ExpectedConditions.visibilityOf(downloadingFrame));
+			wait.until(ExpectedConditions.invisibilityOf(downloadingFrame));
+			return true;
+		}
+		catch (Exception ex) {
+			return false;
+		}
+	}
 
+	public boolean isDownloadingProgressValueValid() {
+		int valueNow = Integer.parseInt(downloadingProgress.getAttribute("aria-valuenow"));
+		return valueNow >= 0 && valueNow <= 100;
+	}
 
-    public boolean isDownloadFrameVisible(){
-        try {
-            wait.until(ExpectedConditions.visibilityOf(downloadingFrame));
-            wait.until(ExpectedConditions.invisibilityOf(downloadingFrame));
-            return true;
-        }catch (Exception ex){
-            return false;
-        }
-    }
-
-    public boolean isDownloadingProgressValueValid(){
-        int valueNow = Integer.parseInt(downloadingProgress.getAttribute("aria-valuenow"));
-        return valueNow >= 0 && valueNow <= 100;
-    }
 }

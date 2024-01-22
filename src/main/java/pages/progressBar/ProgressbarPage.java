@@ -6,10 +6,11 @@ import pages.BasePage;
 
 public class ProgressbarPage extends BasePage {
 
-    @FindBy(linkText = "Download Dialog")
-    private WebElement downloadDialogLink;
+	@FindBy(linkText = "Download Dialog")
+	private WebElement downloadDialogLink;
 
-    public void clickOnTheDownLoadDialogLink(){
-        downloadDialogLink.click();
-    }
+	public void clickOnTheDownLoadDialogLink() {
+		downloadDialogLink.click();
+	}
+
 }

@@ -2,8 +2,8 @@ package utils;
 
 import pages.HomePage;
 import pages.WebautomationPage;
-import pages.alertPage.AlertPage;
-import pages.alertPage.AlertTypesPage;
+import pages.alert.AlertPage;
+import pages.alert.AlertTypesPage;
 import pages.autocomplate.AccentFoldingPage;
 import pages.autocomplate.AutocompletePage;
 import pages.controlGroup.ControlGroupPage;
@@ -25,6 +25,10 @@ import pages.resizeable.SynchronusResizePage;
 import pages.resizeable.TextAreaPage;
 import pages.selectable.SelectablePage;
 import pages.selectable.SerializePage;
+import pages.slider.SliderPage;
+import pages.slider.SnapToIncrementPage;
+import pages.spinner.SpinnerOverFlowPage;
+import pages.spinner.SpinnerPage;
 
 public class Pages {
 
@@ -66,6 +70,14 @@ public class Pages {
 
 	public IframePage iframePage;
 
+	public SliderPage sliderPage;
+
+	public SnapToIncrementPage snapToIncrementPage;
+
+	public SpinnerOverFlowPage spinnerOverFlowPage;
+
+	public SpinnerPage spinnerPage;
+
 	public Pages() {
 		homePage = new HomePage();
 		webautomationPage = new WebautomationPage();
@@ -85,6 +97,10 @@ public class Pages {
 		alertPage = new AlertPage();
 		alertTypesPage = new AlertTypesPage();
 		normalIframePage = new NormalIframePage();
+		sliderPage = new SliderPage();
+		snapToIncrementPage = new SnapToIncrementPage();
+		spinnerOverFlowPage = new SpinnerOverFlowPage();
+		spinnerPage = new SpinnerPage();
 
 	}
 
@@ -196,12 +212,29 @@ public class Pages {
 		return new ToolbarPage();
 	}
 
-	public ProgressbarPage getProgressbarPage(){
+	public ProgressbarPage getProgressbarPage() {
 		return new ProgressbarPage();
 	}
 
-	public DownLoadDialogPage getDownLoadDialogPage(){
+	public DownLoadDialogPage getDownLoadDialogPage() {
 		return new DownLoadDialogPage();
 	}
+
+	public SliderPage getSliderPage(){
+		return sliderPage;
+	}
+
+	public SnapToIncrementPage getSnapToIncrementPage(){
+		return snapToIncrementPage;
+	}
+
+	public SpinnerPage getSpinnerPage(){
+		return spinnerPage;
+	}
+
+	public SpinnerOverFlowPage getSpinnerOverFlowPage(){
+		return spinnerOverFlowPage;
+	}
+
 
 }

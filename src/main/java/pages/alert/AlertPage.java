@@ -1,10 +1,8 @@
-package pages.alertPage;
+package pages.alert;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
-
-import java.util.Base64;
 
 public class AlertPage extends BasePage {
 

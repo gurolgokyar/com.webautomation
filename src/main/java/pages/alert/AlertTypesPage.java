@@ -1,4 +1,4 @@
-package pages.alertPage;
+package pages.alert;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
@@ -31,7 +31,7 @@ public class AlertTypesPage extends BasePage {
 	}
 
 	public void switchToAlert() {
-		alert = DRIVER.switchTo().alert();
+		alert = driver.switchTo().alert();
 	}
 
 	public void confirmTheAlert() {

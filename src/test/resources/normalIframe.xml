@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "normalIfame" parallel = "classes" thread-count = "2">
+    <listeners>
+        <listener class-name = "listeners.ExtentReportListener"/>
+    </listeners>
+    <test name = "testWithChrome">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "iframe.NormalIframePageTest" />
+        </classes>
+    </test>
+</suite>

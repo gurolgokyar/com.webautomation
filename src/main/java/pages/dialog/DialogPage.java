@@ -6,10 +6,11 @@ import pages.BasePage;
 
 public class DialogPage extends BasePage {
 
-    @FindBy(linkText = "Modal Form")
-    private WebElement modelFormLink;
+	@FindBy(linkText = "Modal Form")
+	private WebElement modelFormLink;
 
-    public void clickOnTheModelFormLink(){
-        modelFormLink.click();
-    }
+	public void clickOnTheModelFormLink() {
+		modelFormLink.click();
+	}
+
 }
