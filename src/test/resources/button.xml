@@ -1,0 +1,12 @@
+<suite name = "testButtons" paraallel = "classes" thread-count = "2">
+    <listeners>
+        <listener class-name = "listeners.ExtentReportListener" />
+    </listeners>
+    <test name = "testWithChromeBrowser">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "button.DefaultFunctionalityPageTest"/>
+            <class name = "button.WithIconPageTest"/>
+        </classes>
+    </test>
+</suite>

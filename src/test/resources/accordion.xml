@@ -1,0 +1,11 @@
+<suite name = "testAccordion" paraallel = "classes" thread-count = "2">
+    <listeners>
+        <listener class-name = "listeners.ExtentReportListener" />
+    </listeners>
+    <test name = "testWithChromeBrowser">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "accordion.CollapseContentPageTest"/>
+        </classes>
+    </test>
+</suite>

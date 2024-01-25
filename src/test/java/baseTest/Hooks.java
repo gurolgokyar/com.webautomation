@@ -19,8 +19,8 @@ public class Hooks {
 	@Parameters("browser")
 	@BeforeClass
 	public void setUp(String browserType) {
-		pages = new Pages();
 		driver = Driver.getDriver(browserType);
+		pages = new Pages();
 		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
 	}
 

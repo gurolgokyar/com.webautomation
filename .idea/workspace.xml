@@ -5,45 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bba792-067b-4a5e-ad92-3c516464843d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/slider/SliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/slider/SnapToIncrementPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverFlowPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SnapToIncrementPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverFlowPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/normalIframe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/slider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/accordion/AccordionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/accordion/CollapseContentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/button/ButtonDefaultFunctionalityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/button/ButtonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/button/WithIconPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/checkboxRadioButton/CheckboxRadiobuttonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/checkboxRadioButton/ProductSelectorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/DisplayAsGridPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/IncludeExcludeItemsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/SortablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accordion/CollapseContentPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/button/DefaultFunctionalityPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/button/WithIconPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/checkboxRadioButton/ProductSelectorPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sortable/DisplayAsGridPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sortable/includeExcludeItemsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/accordion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/checkboxRadioButton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sortable.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/alertPage/AlertPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/alert/AlertPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/alertPage/AlertTypesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/alert/AlertTypesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ControlGroupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ControlGroupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/dialog/DialogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/DialogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/draggable/DefaultFunctionalityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/DefaultFunctionalityPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/iframe/IframePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/iframe/IframePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/iframe/NormalIframePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/iframe/NormalIframePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/menu/IconsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/menu/IconsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/menu/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/menu/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/progressBar/ProgressbarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/ProgressbarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverFlowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverFlowPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/controlGroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/controlGroup.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/DefaultFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/DefaultFunctionalityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selectable/SerializePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selectable/SerializePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverFlowPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverFlowPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +79,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/spinner.xml">
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/normalIframe.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/checkboxRadioButton.xml">
+    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/accordion.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/normalIframe.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/accordion.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -101,9 +90,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/sliider.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/button.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/sliider.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/button.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -111,9 +100,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/spinner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/checkboxRadioButton.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/spinner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/checkboxRadioButton.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -121,17 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalIframePageTest.isNormalIFrameVisible" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CollapseContentPageTest.testIsAccordionCollapsed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iframe.*" />
+          <option name="PATTERN" value="accordion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iframe" />
-      <option name="MAIN_CLASS_NAME" value="iframe.NormalIframePageTest" />
-      <option name="METHOD_NAME" value="isNormalIFrameVisible" />
+      <option name="PACKAGE_NAME" value="accordion" />
+      <option name="MAIN_CLASS_NAME" value="accordion.CollapseContentPageTest" />
+      <option name="METHOD_NAME" value="testIsAccordionCollapsed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnapToIncrementPageTest.testDonationAmount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductSelectorPageTest.isClickedButtonSelected" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slider.*" />
+          <option name="PATTERN" value="checkboxRadioButton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="slider" />
-      <option name="MAIN_CLASS_NAME" value="slider.SnapToIncrementPageTest" />
-      <option name="METHOD_NAME" value="testDonationAmount" />
+      <option name="PACKAGE_NAME" value="checkboxRadioButton" />
+      <option name="MAIN_CLASS_NAME" value="checkboxRadioButton.ProductSelectorPageTest" />
+      <option name="METHOD_NAME" value="isClickedButtonSelected" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/spinner.xml" />
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/sliider.xml" />
-        <item itemvalue="TestNG.SnapToIncrementPageTest.testDonationAmount" />
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/normalIframe.xml" />
-        <item itemvalue="TestNG.NormalIframePageTest.isNormalIFrameVisible" />
+        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/checkboxRadioButton.xml" />
+        <item itemvalue="TestNG.ProductSelectorPageTest.isClickedButtonSelected" />
+        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/button.xml" />
+        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/accordion.xml" />
+        <item itemvalue="TestNG.CollapseContentPageTest.testIsAccordionCollapsed" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +174,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/draggable/AutoScrollingPageTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/baseTest/Hooks.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AutocomplateTest/AccentFoldingPageTest.java</url>

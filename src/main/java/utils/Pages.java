@@ -2,10 +2,17 @@ package utils;
 
 import pages.HomePage;
 import pages.WebautomationPage;
+import pages.accordion.AccordionPage;
+import pages.accordion.CollapseContentPage;
 import pages.alert.AlertPage;
 import pages.alert.AlertTypesPage;
 import pages.autocomplate.AccentFoldingPage;
 import pages.autocomplate.AutocompletePage;
+import pages.button.ButtonDefaultFunctionalityPage;
+import pages.button.ButtonPage;
+import pages.button.WithIconPage;
+import pages.checkboxRadioButton.CheckboxRadiobuttonPage;
+import pages.checkboxRadioButton.ProductSelectorPage;
 import pages.controlGroup.ControlGroupPage;
 import pages.controlGroup.ToolbarPage;
 import pages.dialog.DialogPage;
@@ -27,6 +34,9 @@ import pages.selectable.SelectablePage;
 import pages.selectable.SerializePage;
 import pages.slider.SliderPage;
 import pages.slider.SnapToIncrementPage;
+import pages.sortable.DisplayAsGridPage;
+import pages.sortable.IncludeExcludeItemsPage;
+import pages.sortable.SortablePage;
 import pages.spinner.SpinnerOverFlowPage;
 import pages.spinner.SpinnerPage;
 
@@ -78,6 +88,25 @@ public class Pages {
 
 	public SpinnerPage spinnerPage;
 
+	public SortablePage sortablePage;
+
+	public IncludeExcludeItemsPage includeExcludeItemsPage;
+
+	public DisplayAsGridPage displayAsGridPage;
+
+	public AccordionPage accordionPage;
+
+	public CollapseContentPage collapseContentPage;
+
+	public ButtonPage buttonPage;
+
+	public ButtonDefaultFunctionalityPage buttonDefaultFunctionalityPage;
+
+	public WithIconPage withIconPage;
+
+	public CheckboxRadiobuttonPage checkboxRadiobuttonPage;
+
+	public ProductSelectorPage productSelectorPage;
 	public Pages() {
 		homePage = new HomePage();
 		webautomationPage = new WebautomationPage();
@@ -101,7 +130,16 @@ public class Pages {
 		snapToIncrementPage = new SnapToIncrementPage();
 		spinnerOverFlowPage = new SpinnerOverFlowPage();
 		spinnerPage = new SpinnerPage();
-
+		sortablePage = new SortablePage();
+		includeExcludeItemsPage = new IncludeExcludeItemsPage();
+		displayAsGridPage = new DisplayAsGridPage();
+		accordionPage = new AccordionPage();
+		collapseContentPage = new CollapseContentPage();
+		buttonPage = new ButtonPage();
+		buttonDefaultFunctionalityPage = new ButtonDefaultFunctionalityPage();
+		withIconPage = new WithIconPage();
+		checkboxRadiobuttonPage = new CheckboxRadiobuttonPage();
+		productSelectorPage = new ProductSelectorPage();
 	}
 
 	public HomePage getHomePage() {
@@ -236,5 +274,43 @@ public class Pages {
 		return spinnerOverFlowPage;
 	}
 
+	public SortablePage getSortablePage() {
+		return sortablePage;
+	}
 
+	public IncludeExcludeItemsPage getIncludeExcludeItemsPage() {
+		return includeExcludeItemsPage;
+	}
+
+	public DisplayAsGridPage getDisplayAsGridPage() {
+		return displayAsGridPage;
+	}
+
+	public AccordionPage getAccordionPage() {
+		return accordionPage;
+	}
+
+	public CollapseContentPage getCollapseContentPage() {
+		return collapseContentPage;
+	}
+
+	public ButtonPage getButtonPage() {
+		return buttonPage;
+	}
+
+	public ButtonDefaultFunctionalityPage getButtonDefaultFunctionalityPage() {
+		return buttonDefaultFunctionalityPage;
+	}
+
+	public WithIconPage getWithIconPage() {
+		return withIconPage;
+	}
+
+	public CheckboxRadiobuttonPage getCheckboxRadiobuttonPage() {
+		return checkboxRadiobuttonPage;
+	}
+
+	public ProductSelectorPage getProductSelectorPage() {
+		return productSelectorPage;
+	}
 }

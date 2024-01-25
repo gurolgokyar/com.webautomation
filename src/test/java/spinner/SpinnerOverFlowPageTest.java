@@ -27,7 +27,7 @@ public class SpinnerOverFlowPageTest extends Hooks {
     @Test(priority = 1)
     void testIsTextAreaBetween0And10AfterClickedToSpinnerDown(){
         //Set to text area to 0
-        pages.getSpinnerOverFlowPage().setTheTextAreaToZero();
+        //pages.getSpinnerOverFlowPage().setTheTextAreaToZero();
 
         //Click on the spinnerDown 11 times
         pages.getSpinnerOverFlowPage().clickOnTheSpinnerUp(-11);

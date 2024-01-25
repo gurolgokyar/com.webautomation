@@ -21,19 +21,18 @@ public class SpinnerOverFlowPage extends BasePage {
 
     public void clickOnTheSpinnerUp(int numberOfClick){
         for (int i = 0; i < numberOfClick; i++){
-            actions.moveToElement(spinnerUp).click();
+            actions.moveToElement(spinnerUp).click().perform();
         }
     }
 
     public void clickOnTheSpinnerDown(int numberOfClick){
         for (int i = 0; i < numberOfClick; i++){
-            actions.moveToElement(spinnerDown).click();
+            actions.moveToElement(spinnerDown).click().perform();
         }
     }
 
     public void setTheTextAreaToZero(){
         textArea.clear();
-        textArea.sendKeys("0");
     }
 
     public boolean isBetweenZeroAndTen(){

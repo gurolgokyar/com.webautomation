@@ -45,6 +45,19 @@ public class WebautomationPage extends BasePage {
 	@FindBy(linkText = "Spinner")
 	private WebElement spinnerLink;
 
+	@FindBy(linkText = "Sortable")
+	private WebElement sortableLink;
+
+	@FindBy(linkText = "Accordion")
+	private WebElement accordionLink;
+
+	@FindBy(linkText = "Button")
+	private WebElement buttonLink;
+
+	@FindBy(linkText = "Checkbox Radio")
+	private WebElement checkboxRadioLink;
+
+
 	public void clickOnDraggableLink() {
 		draggableLink.click();
 	}
@@ -99,5 +112,21 @@ public class WebautomationPage extends BasePage {
 
 	public void clickOnTheSpinnerLink(){
 		spinnerLink.click();
+	}
+
+	public void clickOnTheSortableLink(){
+		sortableLink.click();
+	}
+
+	public void clickOnTheAccordionLink(){
+		accordionLink.click();
+	}
+
+	public void clickOnTheButtonLink(){
+		buttonLink.click();
+	}
+
+	public void clickOnTheCheckboxRadioButton(){
+		checkboxRadioLink.click();
 	}
 }

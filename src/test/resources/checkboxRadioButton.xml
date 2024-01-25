@@ -1,0 +1,11 @@
+<suite name = "testCheckboxRadioButton">
+    <listeners>
+        <listener class-name = "listeners.ExtentReportListener"/>
+    </listeners>
+    <test name = "testWithChrome">
+        <parameter name = "browser" value = "chrome" />
+        <classes>
+            <class name = "checkboxRadioButton.ProductSelectorPageTest"/>
+        </classes>
+    </test>
+</suite>

@@ -66,6 +66,7 @@
                            <suiteXmlFile>src/test/resources/normalIframe.xml</suiteXmlFile>
                            <suiteXmlFile>src/test/resources/spinner.xml</suiteXmlFile>
                            <suiteXmlFile>src/test/resources/slider.xml</suiteXmlFile>
+                           <suiteXmlFile>src/test/resources/sortable.xml</suiteXmlFile>
                        </suiteXmlFiles>
                 </configuration>
             </plugin>
