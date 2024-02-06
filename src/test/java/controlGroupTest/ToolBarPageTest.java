@@ -9,20 +9,13 @@ import static org.testng.Assert.*;
 
 public class ToolBarPageTest extends Hooks {
 
-	@BeforeMethod
-	void navigateToToolbarPage() {
-		pages.getHomePage().clickWebAutomation();
-		pages.getWebautomationPage().clickOnTheControlGroupPage();
-		// pages.getControlGroupPage().clickOnTheToolbarLink();
-	}
-
-	@AfterMethod
-	void navigateToHomePage() {
-		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
-	}
 
 	@Test
 	void selectTheZoomValue() {
+		//Navigate to ToolBarPage
+		pages.getHomePage().clickWebAutomation();
+		pages.getWebautomationPage().clickOnTheControlGroupPage();
+
 		// click on the zoom button
 		pages.getToolbarPage().selectTheZoomValue("150%");
 
@@ -31,7 +24,7 @@ public class ToolBarPageTest extends Hooks {
 		assertTrue(isSelected, "Wrong zoom value!");
 	}
 
-	@Test
+	@Test(priority = 1)
 	void selectTheHighLight() {
 		// Click on the highLight button
 		pages.getToolbarPage().selectTheHighLightValue("Yellow");
@@ -41,7 +34,7 @@ public class ToolBarPageTest extends Hooks {
 		assertTrue(isSelected, "Wrong highLight value!");
 	}
 
-	@Test
+	@Test(priority = 1)
 	void selectTheColor() {
 		// Select the Green as a color value
 		pages.getToolbarPage().selectTheColorValue("Green");

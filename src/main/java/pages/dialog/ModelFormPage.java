@@ -60,4 +60,10 @@ public class ModelFormPage extends BasePage {
 		return submittedAccounts.size();
 	}
 
+	public void clearTextAreas () {
+		nameField.clear();
+		surNameField.clear();
+		emailAddressField.clear();
+	}
+
 }

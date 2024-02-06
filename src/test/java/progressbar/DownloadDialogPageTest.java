@@ -26,7 +26,7 @@ public class DownloadDialogPageTest extends Hooks {
 		pages.getDownLoadDialogPage().clickOnTheStartDownloadButton();
 
 		// Click on the start download button
-		pages.getDownLoadDialogPage().clickOnTheStartDownloadButton();
+		//pages.getDownLoadDialogPage().clickOnTheStartDownloadButton();
 
 		// Verify the downloading frame is visible
 		boolean isVisible = pages.getDownLoadDialogPage().isDownloadFrameVisible();
@@ -39,7 +39,7 @@ public class DownloadDialogPageTest extends Hooks {
 		pages.getDownLoadDialogPage().clickOnTheStartDownloadButton();
 
 		// Click on the start download button
-		pages.getDownLoadDialogPage().clickOnTheStartDownloadButton();
+		//pages.getDownLoadDialogPage().clickOnTheStartDownloadButton();
 
 		boolean isCurrentValueValid = pages.getDownLoadDialogPage().isDownloadingProgressValueValid();
 		Assert.assertTrue(isCurrentValueValid, "Invalid current downloading value!");

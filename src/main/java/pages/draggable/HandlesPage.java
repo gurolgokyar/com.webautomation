@@ -12,11 +12,15 @@ public class HandlesPage extends BasePage {
 	@FindBy(id = "draggable13")
 	private WebElement draggable1;
 
-	@FindBy(xpath = "//p[text() = '…but you can't drag me by this handle.']")
-	private WebElement unDraggableAreaInSecondDraggable;
-
 	@FindBy(id = "draggable14")
 	private WebElement draggable2;
+
+	//
+	@FindBy(xpath = "//*[@id=\"draggable14\"]/p[2]")
+	private WebElement unDraggableAreaInSecondDraggable;
+
+	@FindBy(xpath = "//*[@id=\"draggable14\"]/p[1]")
+	private WebElement draggableAreInSecondDraggable;
 
 	public void dragAndDropFirstDraggableWithDraggableArea(int XOffset, int YOffset) {
 		actions.dragAndDropBy(draggableAreaInFirstDraggable, XOffset, YOffset).perform();
@@ -32,7 +36,7 @@ public class HandlesPage extends BasePage {
 	}
 
 	public void dragAndDropSecondDraggableWithDraggableArea(int XOffset, int YOffset) {
-		actions.moveToElement(draggable2, 0, 0).clickAndHold().moveByOffset(XOffset, YOffset).release().perform();
+		actions.moveToElement(draggableAreInSecondDraggable).clickAndHold().moveByOffset(XOffset, YOffset).release().perform();
 	}
 
 	public void dragAndDropSecondDraggableWithUnDraggableArea(int XOffset, int YOffset) {

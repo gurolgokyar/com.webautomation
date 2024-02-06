@@ -5,34 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bba792-067b-4a5e-ad92-3c516464843d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/accordion/AccordionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/accordion/CollapseContentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/button/ButtonDefaultFunctionalityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/button/ButtonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/button/WithIconPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/checkboxRadioButton/CheckboxRadiobuttonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/checkboxRadioButton/ProductSelectorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/DisplayAsGridPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/IncludeExcludeItemsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/SortablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accordion/CollapseContentPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/button/DefaultFunctionalityPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/button/WithIconPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/checkboxRadioButton/ProductSelectorPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sortable/DisplayAsGridPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sortable/includeExcludeItemsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accordion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/checkboxRadioButton.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sortable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/datepicker/DatepickerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/datepicker/DisplayMultipleMonthsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/datepicker/SelectDateRangePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datepicker/DisplayMultipleMonthsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datepicker/SelectDateRangePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/datepicker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebautomationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverFlowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverFlowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/ModelFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/draggable/HandlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/draggable/HandlesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownLoadDialogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverFlowPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverFlowPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolBarPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dialog/ModelFormPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/ConstantMovementPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/ConstantMovementPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggable/HandlesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggable/HandlesPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menuPageTest/IconsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/progressbar/DownloadDialogPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -79,48 +73,69 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/checkboxRadioButton.xml">
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/accordion.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/accordion.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/button.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/button.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/checkboxRadioButton.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.webautomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/checkboxRadioButton.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollapseContentPageTest.testIsAccordionCollapsed" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ModelFormPageTest">
+    <configuration name="DownloadDialogPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accordion.*" />
+          <option name="PATTERN" value="progressbar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="accordion" />
-      <option name="MAIN_CLASS_NAME" value="accordion.CollapseContentPageTest" />
-      <option name="METHOD_NAME" value="testIsAccordionCollapsed" />
+      <option name="PACKAGE_NAME" value="progressbar" />
+      <option name="MAIN_CLASS_NAME" value="progressbar.DownloadDialogPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IconsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menuPageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="menuPageTest" />
+      <option name="MAIN_CLASS_NAME" value="menuPageTest.IconsPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelFormPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dialog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dialog" />
+      <option name="MAIN_CLASS_NAME" value="dialog.ModelFormPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelFormPageTest.testModelFormWithValidInputs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.webautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dialog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dialog" />
+      <option name="MAIN_CLASS_NAME" value="dialog.ModelFormPageTest" />
+      <option name="METHOD_NAME" value="testModelFormWithValidInputs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,18 +143,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductSelectorPageTest.isClickedButtonSelected" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ToolBarPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.webautomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="checkboxRadioButton.*" />
+          <option name="PATTERN" value="controlGroupTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="checkboxRadioButton" />
-      <option name="MAIN_CLASS_NAME" value="checkboxRadioButton.ProductSelectorPageTest" />
-      <option name="METHOD_NAME" value="isClickedButtonSelected" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="controlGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="controlGroupTest.ToolBarPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/checkboxRadioButton.xml" />
-        <item itemvalue="TestNG.ProductSelectorPageTest.isClickedButtonSelected" />
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/button.xml" />
-        <item itemvalue="TestNG.C:/Users/user/OneDrive/Masaüstü/WorkSpace/com.webautomation/src/test/resources/accordion.xml" />
-        <item itemvalue="TestNG.CollapseContentPageTest.testIsAccordionCollapsed" />
+        <item itemvalue="TestNG.ModelFormPageTest" />
+        <item itemvalue="TestNG.ModelFormPageTest.testModelFormWithValidInputs" />
+        <item itemvalue="TestNG.ToolBarPageTest" />
+        <item itemvalue="TestNG.DownloadDialogPageTest" />
+        <item itemvalue="TestNG.IconsPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,15 +193,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/baseTest/Hooks.java</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/AutocomplateTest/AccentFoldingPageTest.java</url>
-          <line>13</line>
-          <properties class="AutocomplateTest.AccentFoldingPageTest" method="accentFoldingTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

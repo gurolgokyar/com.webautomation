@@ -7,21 +7,14 @@ import org.testng.annotations.Test;
 
 public class IconsPageTest extends Hooks {
 
-	@BeforeMethod
-	void navigateToIconsPage() {
+
+	@Test
+	void testIsNotElementSelectable() {
 		// Navigate to Icons page
 		pages.getHomePage().clickWebAutomation();
 		pages.getWebautomationPage().clickOnTheMenuLink();
 		pages.getMenuPage().clickOnTheIconsLink();
-	}
 
-	@BeforeMethod
-	void navigateToHomePage() {
-		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
-	}
-
-	@Test
-	void testIsNotElementSelectable() {
 		// click on the Zoom In row
 		pages.getIconsPage().clickOnARow(2);
 
@@ -32,7 +25,7 @@ public class IconsPageTest extends Hooks {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	void testIsElementSelectable() {
 		// click on the Playback row
 		pages.getIconsPage().clickOnARow(5);

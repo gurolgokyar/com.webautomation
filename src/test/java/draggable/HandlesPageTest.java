@@ -2,6 +2,7 @@ package draggable;
 
 import baseTest.Hooks;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
@@ -17,9 +18,9 @@ public class HandlesPageTest extends Hooks {
 
 	@BeforeMethod
 	void navigateToWebOrderPage() {
+		pages.getHomePage().clickWebAutomation();
 		pages.getWebautomationPage().clickOnDraggableLink();
 		pages.getDraggablePage().clickOnTheHandlesButton();
-		pages.getHomePage().clickWebAutomation();
 	}
 
 	@Test

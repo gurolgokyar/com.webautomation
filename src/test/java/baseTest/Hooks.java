@@ -16,10 +16,10 @@ public class Hooks {
 
 	protected SoftAssert softAssert = new SoftAssert();
 
-	@Parameters("browser")
+	//@Parameters("browser")
 	@BeforeClass
-	public void setUp(String browserType) {
-		driver = Driver.getDriver(browserType);
+	public void setUp() {
+		driver = Driver.getDriver("chrome");
 		pages = new Pages();
 		driver.get("https://InarAcademy:Fk160621.@test.inar-academy.com/");
 	}

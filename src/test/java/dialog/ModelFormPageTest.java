@@ -7,15 +7,9 @@ import org.testng.annotations.Test;
 
 public class ModelFormPageTest extends Hooks {
 
-	@DataProvider(name = "createAccountProvider")
-	public Object[][] provideCreateAccountCredentials() {
-		return new Object[][] { { "Emily", "Johnson", "emily.johnson@gmail.com", 2 },
-				{ "Alexander", "Rabinson", "alexander.robinson@gmail.com", 3 },
-				{ "Olivia", "Harris", "olivia.harris.com", 3 } };
-	}
 
-	@Test(dataProvider = "createAccountProvider")
-	void testModelForm(String name, String surname, String emailAddress, int expectedNumberOfAccount) {
+	@Test
+	void testModelFormWithValidInputs() {
 		// Navigate to ModelFormPage
 		pages.getHomePage().clickWebAutomation();
 		pages.getWebautomationPage().clickOnTheDialogLink();
@@ -23,14 +17,60 @@ public class ModelFormPageTest extends Hooks {
 		pages.getModelFormPage().clickOnTheCreateAccountButton();
 
 		// Create an account
-		pages.getModelFormPage().createAccount(name, surname, emailAddress);
+		pages.getModelFormPage().createAccount("Emily", "Johnson", "emily.johnson@gmail.com");
+
+		//Click on the submit button
+		pages.getModelFormPage().clickOnTheSubmitButton();
 
 		// Get the number of account
 		int numberOfAccount = pages.getModelFormPage().getNumberOfSubmittedAccount();
 
 		// Verify the create account process is as expected
-		Assert.assertTrue(numberOfAccount == expectedNumberOfAccount,
-				"Creating account progress should not be " + "submitted!");
+		Assert.assertTrue(numberOfAccount == 2,
+				"Creating account progress should be performed correctly!");
 	}
+
+	@Test(priority = 1)
+	void testModelFormWithValidInputs2(){
+		//click on the create account button
+		pages.getModelFormPage().clickOnTheCreateAccountButton();
+
+		pages.getModelFormPage().clearTextAreas();
+
+		// Create an account
+		pages.getModelFormPage().createAccount("Alexander", "Rabinson", "alexander.robinson@gmail.com");
+
+		//Click on the submit button
+		pages.getModelFormPage().clickOnTheSubmitButton();
+
+		// Get the number of account
+		int numberOfAccount = pages.getModelFormPage().getNumberOfSubmittedAccount();
+
+		// Verify the create account process is as expected
+		Assert.assertTrue(numberOfAccount == 3,
+				"Creating account progress should be performed correctly!");
+	}
+
+	@Test(priority = 2)
+	void testModelFormWithInvalidInputs(){
+		//click on the create account button
+		pages.getModelFormPage().clickOnTheCreateAccountButton();
+
+		pages.getModelFormPage().clearTextAreas();
+
+		// Create an account
+		pages.getModelFormPage().createAccount("Olivia", "Harris", "olivia.harris.com");
+
+		//Click on the submit button
+		pages.getModelFormPage().clickOnTheSubmitButton();
+
+		// Get the number of account
+		int numberOfAccount = pages.getModelFormPage().getNumberOfSubmittedAccount();
+
+		// Verify the create account process is as expected
+		Assert.assertTrue(numberOfAccount == 3,
+				"Creating account progress should not be performed!");
+	}
+
 
 }

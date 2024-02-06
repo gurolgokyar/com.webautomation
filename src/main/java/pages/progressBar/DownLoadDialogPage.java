@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import pages.BasePage;
+import utils.BrowserUtils;
 
 public class DownLoadDialogPage extends BasePage {
 
@@ -32,6 +33,7 @@ public class DownLoadDialogPage extends BasePage {
 	}
 
 	public boolean isDownloadingProgressValueValid() {
+		BrowserUtils.wait(3);
 		int valueNow = Integer.parseInt(downloadingProgress.getAttribute("aria-valuenow"));
 		return valueNow >= 0 && valueNow <= 100;
 	}

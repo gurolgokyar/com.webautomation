@@ -57,6 +57,9 @@ public class WebautomationPage extends BasePage {
 	@FindBy(linkText = "Checkbox Radio")
 	private WebElement checkboxRadioLink;
 
+	@FindBy(linkText = "Datepicker")
+	private  WebElement datepickerLink;
+
 
 	public void clickOnDraggableLink() {
 		draggableLink.click();
@@ -128,5 +131,9 @@ public class WebautomationPage extends BasePage {
 
 	public void clickOnTheCheckboxRadioButton(){
 		checkboxRadioLink.click();
+	}
+
+	public void clickOnTheDatepickerLink() {
+		datepickerLink.click();
 	}
 }

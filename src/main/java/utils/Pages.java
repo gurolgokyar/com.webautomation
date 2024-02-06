@@ -15,6 +15,9 @@ import pages.checkboxRadioButton.CheckboxRadiobuttonPage;
 import pages.checkboxRadioButton.ProductSelectorPage;
 import pages.controlGroup.ControlGroupPage;
 import pages.controlGroup.ToolbarPage;
+import pages.datepicker.DatepickerPage;
+import pages.datepicker.DisplayMultipleMonthsPage;
+import pages.datepicker.SelectDateRangePage;
 import pages.dialog.DialogPage;
 import pages.dialog.ModelFormPage;
 import pages.draggable.*;
@@ -107,6 +110,12 @@ public class Pages {
 	public CheckboxRadiobuttonPage checkboxRadiobuttonPage;
 
 	public ProductSelectorPage productSelectorPage;
+
+	public DatepickerPage datepickerPage;
+
+	public DisplayMultipleMonthsPage displayMultipleMonthsPage;
+
+	public SelectDateRangePage selectDateRangePage;
 	public Pages() {
 		homePage = new HomePage();
 		webautomationPage = new WebautomationPage();
@@ -140,6 +149,9 @@ public class Pages {
 		withIconPage = new WithIconPage();
 		checkboxRadiobuttonPage = new CheckboxRadiobuttonPage();
 		productSelectorPage = new ProductSelectorPage();
+		datepickerPage = new DatepickerPage();
+		displayMultipleMonthsPage = new DisplayMultipleMonthsPage();
+		selectDateRangePage = new SelectDateRangePage();
 	}
 
 	public HomePage getHomePage() {
@@ -312,5 +324,17 @@ public class Pages {
 
 	public ProductSelectorPage getProductSelectorPage() {
 		return productSelectorPage;
+	}
+
+	public DatepickerPage getDatepickerPage() {
+		return datepickerPage;
+	}
+
+	public DisplayMultipleMonthsPage getDisplayMultipleMonthsPage() {
+		return displayMultipleMonthsPage;
+	}
+
+	public SelectDateRangePage getSelectDateRangePage() {
+		return selectDateRangePage;
 	}
 }
